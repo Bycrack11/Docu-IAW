@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Media</title>
+</head>
+<body>
+    <a href="main.html">Main/HTML</a>
+    <br>
+    <h2>Imagenes (en local) [ruta relativa]</h2>
+    <p>Imagenes normal</p>
+    <img src="images\meganeRS3.png" alt="Megane 3 RS" width="300" height="200"> <!--Imagen con tamaño-->
+    <br> <!--Salto de linea-->
+    <br> <!--Salto de linea-->
+    <br> <!--Salto de linea-->
+    <p>Imagenes con hipervinculo</p>
+    <a href="https://www.renault.es"> <!--Imagen con hipervinculo-->
+        <img src="images\meganeRS3.png" alt="Megane 3 RS" width="300" height="200">
+    </a>
+    <br> <!--Salto de linea-->
+    <br> <!--Salto de linea-->
+    <br> <!--Salto de linea-->
+    <p>Imagenes con descripcion</p>
+     <figure> <!--Envuelve la imagen mas menos para poner texto-->
+        <img src="images\meganeRS3.png" alt="Megane 3 RS" width="300" height="200"> <!--Imagen normal-->
+        <figcaption>Renault Megane 3 RS</figcaption> <!--Pie de figura-->
+    </figure>
+
+    <br> <!--Salto de linea-->
+    <hr> <!--Linea horizontal-->
+    <h2>Audio y Video (en local) [ruta relativa]</h2>
+    <video controls width="600" height="400"> <!--Video-->
+        <source src="video\megane.mp4" type="video/mp4">
+        Tu navegador no soporta el formato de video <!--Mensaje de error-->
+    </video>
+
+    <br> <!--Salto de linea-->
+    <br> <!--Salto de linea-->
+
+    <audio controls> <!--Audio-->
+        <source src="audio\megane.mp3" type="audio/mp3">
+        Tu navegador no soporta el formato de audio <!--Mensaje de error-->
+    </audio>
+
+    <br>
+    <hr>
+
+    <h2>Imagenes (en internet) [ruta absoluta]</h2>
+    <p>Imagenes normal</p>
+    <img src="https://fotos.quecochemecompro.com/renault-megane-rs/renault-megane-rs-lateral-frontal.jpeg?size=1200x800" alt="Megane 3 RS" width="300" height="200"> <!--Imagen con tamaño-->
+    <br> <!--Salto de linea-->
+    <br> <!--Salto de linea-->
+    <br> <!--Salto de linea-->
+    <p>Imagenes con hipervinculo</p>
+    <a href="https://www.renault.es"> <!--Imagen con hipervinculo-->
+        <img src="https://fotos.quecochemecompro.com/renault-megane-rs/renault-megane-rs-lateral-frontal.jpeg?size=1200x800" alt="Megane 3 RS" width="300" height="200">
+    </a>
+    <br> <!--Salto de linea-->
+    <br> <!--Salto de linea-->
+    <br> <!--Salto de linea-->
+    <p>Imagenes con descripcion</p>
+     <figure> <!--Envuelve la imagen mas menos para poner texto-->
+        <img src="https://fotos.quecochemecompro.com/renault-megane-rs/renault-megane-rs-lateral-frontal.jpeg?size=1200x800" alt="Megane 3 RS" width="300" height="200"> <!--Imagen normal-->
+        <figcaption>Renault Megane 3 RS</figcaption> <!--Pie de figura-->
+    </figure>
+
+    <br> <!--Salto de linea-->
+    <hr> <!--Linea horizontal-->
+    <h2>Video (en internet) [iframe]</h2>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jbqZCtAWs50?si=NjhUZ-FCenkG0MYn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+</body>
+</html>
+
