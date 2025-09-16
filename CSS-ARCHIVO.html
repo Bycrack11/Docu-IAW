@@ -55,7 +55,34 @@
         <p>El ancho total se calcula como: width + padding (tanto izq como derecha) + border (tanto izq como derecha)</p>
         <p>Ejemplo: width: 100px; padding: 10px; border: 2px solid red. El total será 100+10+10+2+2 = 124</p>
         <p>Si quiero que el ancho total sea 100px, uso box-sizing: border-box en el CSS. El navegador directamente lo ajusta de manera proporcional</p>
-
+        <p class="caja">Ejemplo de una caja con los siguientes parámetros: box-sizing: border-box; width: 750px; padding: 10px; border: 5px solid red; margin: 20px auto;</p>
+        <p class="caja2">Ejemplo de una caja SIN BORDE con los siguientes parámetros: box-sizing: border-box; width: 750px; padding: 10px; border: 5px solid red; margin: 20px auto;</p>
+        <br>
+        <br>    
+        <h3>Textos</h3>
+        <h5>Eleccion de fuente</h5>
+        <p>NO se sabe si el usuario tiene una fuente instalada, asi que se ponen varias en orden de prioridad por si alguna falla</p>
+        <p>font-family: Arial, "Times New Roman", sans-serif;</p>
+        <br>
+        <h5>Tamaño de fuente</h5>
+        <p>font-size: 16px; (pixeles)</p>
+        <p>Otras unidades son em (relativo al tamaño de la fuente del elemento padre): 1.2em = 1.2 veces el tamaño de la fuente del elemento padre</p>
+        <p>rem (relativo al tamaño de la fuente del elemento raiz, normalmente el body): 1.2rem = 1.2 veces el tamaño de la fuente del elemento raiz</p>
+        <br>
+        <h5>Grosor de la fuente</h5>
+        <p>font-weight: normal; (normal, bold, bolder, lighter o numero del 100 al 900)</p>
+        <p class="impo1">Esto es un texto bold (700)</p>
+        <p class="impo2">Esto es un texto bolder</p>
+        <p class="impo3">Esto es un texto lighter</p>
+        <p class="impo4">Esto es un texto 200</p>
+        <br>
+        <h5>Color</h5>
+        <ul>
+            <li>color: red; (nombre del color en ingles)</li>
+            <li>color: #ff0000; (hexadecimal)</li>
+            <li>color: rgb(255,0,0); (rgb)</li>
+            <li>color: rgba(255,0,0,0.5); (rgb con alpha/transparencia)</li>
+        </ul>
     </main> 
 </body>
 </html>
