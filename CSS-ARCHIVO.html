@@ -25,6 +25,37 @@
             <li>Se pone una clase predecida con un punto</li>
             <li>Se pone una id predecida con una almohadilla</li>
         </ul>
+        <br>
+        <br>
+        <p>Si meto dos categorias seguidas, por ejemplo nav p, estoy diciendo que quiero que afecte a todos los parrafos que esten dentro de un nav</p>
+        <nav>
+            <p>Esto es un parrafo dentro de un nav (afectado)</p>
+        </nav>
+        <p>Esto es un parrafo fuera de un nav (no afectado)</p>
+        <br>
+        <br>
+        <h3>Modelo de CAJA</h3>
+        <p>Pensamos que es como un cuadro que contiene lo siguiente:</p>
+        <ul>
+            <li>Cuadro(content)</li>
+            <li>El relleno entre el cuadro y el marco(padding)</li>
+            <li>Marco (border)</li>
+            <li>Margen entre el cuadro y otro cuadro (margin)</li>
+        </ul>
+        <br>
+        <ol>
+            <li>Contenido: imagens, video, texto... Se controla con width (anchura) y height (altura)</li>
+            <li>Relleno: espacio entre el contenido y el borde. Se controla con padding seguido de top, right, bottom, left</li>
+            <li>Borde: linea que rodea el contenido y el relleno. Se controla con border seguido de width, style (solid, dotted..), color</li>
+            <li>Margen: espacio entre el borde y otros elementos. Se controla con margin seguido de top, right, bottom, left</li>
+        </ol>
+        <p>Esto puede ser tedioso de escribir, asi que si lo sabes bien, se podria usar el acortamiento de solo el nombre de cada elemento seguido de las caracteristicas</p>
+        <p>Por ejemplo: margin: 10px 5px 15px 20px; (top, right, bottom, left)</p>
+        <br>
+        <p>El ancho total se calcula como: width + padding (tanto izq como derecha) + border (tanto izq como derecha)</p>
+        <p>Ejemplo: width: 100px; padding: 10px; border: 2px solid red. El total será 100+10+10+2+2 = 124</p>
+        <p>Si quiero que el ancho total sea 100px, uso box-sizing: border-box en el CSS. El navegador directamente lo ajusta de manera proporcional</p>
+
     </main> 
 </body>
 </html>

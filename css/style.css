@@ -44,3 +44,8 @@ a:hover {
     margin-bottom: 20px; /*espacio abajo*/
     border-bottom: 2px solid black; /*linea debajo del header*/
 }
+
+nav p {
+    color: indigo;
+    font-style: italic;
+}
