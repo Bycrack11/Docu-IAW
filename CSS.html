@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "es-ES">
+    <head>
+        <title>CSS</title>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            h5 {
+                color: rgb(4, 0, 255);
+                background-color: rgba(48, 252, 7, 0.514);
+            }
+            a {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Main/HTML</a>
+        <h2>CSS Inline</h2>
+        <h4>No es lo mas comun ni lo mejor ya que interfiere con la pagina, pero es posible meter css dentro de cada linea HTML</h4>
+        <p style="color:brown;">Este es un texto marrón</p>
+        <p> < p style="color:brown;">Este es un texto marrón</p>
+        <p style="color:red; font-size:20px;">Este es un texto rojo y grande</p>
+        <p> < p style="color:red; font-size:20px;">Este es un texto rojo y grande</p>
+
+        <br>
+        <hr> <!--Linea horizontal-->
+
+        <h2>CSS Interno</h2>
+        <h4>Se mete dentro de la misma pagina HTML pero en la cabecera</h4>
+        <h5>El texto de este parrafo es azul y tiene un fondo verde</h5>
+        <a href="CSS.html">Ejmeplo de Link</a>
+
+        <p>style>
+            h5 {
+                color: rgb(4, 0, 255);
+                background-color: rgba(48, 252, 7, 0.514);
+            }
+            a {
+                color: red;
+            }
+        /style></p>
+
+        <br>
+        <hr> <!--Linea horizontal-->
+
+        <h2>CSS Externo</h2>
+        <h4>Se mete en un archivo aparte con extension .css y se enlaza en la cabecera</h4>
+        <p class="texto1">Este es un texto azul con fondo negro</p>
+        <a href = "css/style.css"> Enlace al archivo css</a>
+    </body>
+</html>
