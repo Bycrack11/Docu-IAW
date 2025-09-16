@@ -18,21 +18,29 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgb(0, 0, 0);
 }
 
+.importante {
+    background-color: yellow;
+    font-weight: bold;
+}
+
 /* Links */
 a {
     color: red;
     text-decoration: none;
+    margin-right: 2em;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 24px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+
+/*A partir de aquí es la pagina CSS-ARCHIVO*/
+#cabecera {
+    background-color: darkkhaki; /*color de fondo*/
+    color: black; /*color del texto*/
+    padding: 10px 0; /*espaciado de 10 pixeles arriba y 0 a los laterales*/
+    text-align: center; /*centrar el texto*/
+    margin-bottom: 20px; /*espacio abajo*/
+    border-bottom: 2px solid black; /*linea debajo del header*/
 }
