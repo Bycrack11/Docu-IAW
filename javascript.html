@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang = "es-ES">
+    <head>
+        <title>Javascript</title>
+        
+    </head>
+    <body>
+        <a href="index.html">Main/HTML</a>
+        <h1>Javascript</h1>
+        <p>Hay 2 tipos de Javascript, el que tiene el script dentro del HTML y el que tiene el script en otro archivo aparte, como HTML</p>
+        <p>El que usaremos será el que tiene el script en otro archivo aparte, como en CSS</p>
+        <br>
+        <br>
+        <hr>
+        <h2>Script dentro de HTML</h2>
+        <p>Se pondrá dentro de la etiqueta script, dentro del body y al final</p>
+        <p>body</p>
+        <p>código HTML</p>
+        <p>script</p>
+        <p>/body</p>
+        <br>
+        <p>Tendrá la siguiente estructura (ejemplo)</p>
+        <p>script</p>
+        <p>console.log("hola mundo");</p>
+        <p>/script</p>
+        <br>
+        <script>
+            console.log("hola mundo");
+        </script>
+        <br>
+        <p>En la consola aparece el texto "hola mundo"</p>
+        <p><span style="color: red;"><strong>IMPORTANTE</strong></span> la consola se abre con F12 o con boton derecho inspeccionar. Arriba a la drcha estará una pestaña de elements y al lado estará la consola</p>
+
+        <hr>
+        <br>
+        <h2>Script en archivo aparte</h2>
+        <p>Se pondrá dentro de la etiqueta script, dentro del head o body, pero con el atributo src (source) y la ruta del archivo</p>
+        <p>script src="script.js"> /script</p>
+        
+        <a href="javascript/script.js">Enlace al script js</a>
+        <p>Este archivo muestra un mensaje cuando pulses un botón con el id "boton"</p>
+        <button id="boton">Pulsa aqui</button>
+        <p id="cajamensaje"></p>
+        <br>
+        <br>
+        <script src="javascript/script.js"></script>
+
+        <br>
+        <hr>
+        <h2>Variables</h2>
+        <p>Se pueden definir variables con var, let o const</p>
+        <ul>
+            <li>var: es la forma antigua de definir variables, no se usa mucho</li>
+            <li>let: se usa para definir variables que pueden cambiar su valor</li>
+            <ul>
+                <li>Ej: let edad=30; edad=31</li>
+            </ul>
+            <li>const: se usa para definir variables que no pueden cambiar su valor</li>
+            <ul>
+                <li>Ej: const pi=3.14; <br>pi=3.15-->(esto da error)</li>
+            </ul>
+        </ul>
+        <br>
+        <h4>Tipos de datos</h4>
+        <ul>
+            <li>Números: let numero=5; let decimal=3.14;</li>
+            <li>Strings: let texto="Hola"; let texto2='Mundo';</li>
+            <li>Booleanos: let verdadero=true; let falso=false;</li>
+            <li>Arrays: let array=[1,2,3,4,5];</li>
+            <li>Objetos: let objeto={nombre:"Juan", edad:30};</li>
+            <li>Indefinidos: let indefinido;</li>
+            <li>Nulos: let usuario=null;</li>
+        </ul>
+        <p>AL no depender de tipos, se puede hacer lo siguiente:<br> 
+            let variable=5; <br>
+            console.log(variable); /*DA de resultado 5*/ <br>
+            variable="Hola"; <br>
+            console.log(variable); /*DA de resultado Hola*/
+        </p>
+        <br>
+        <h4>Operadores aritméticos</h4>
+        <ul>
+            <li>Suma: +</li>
+            <li>Resta: -</li>
+            <li>Multiplicación: *</li>
+            <li>División: /</li>
+            <li>Módulo: % (resto de la división)</li>
+            <li>Incremento: ++ (suma 1)</li>
+            <li>Decremento: -- (resta 1)</li>
+        </ul>
+        <p>Ver ejemplos en la consola y el archivo</p>
+        <br>
+        <hr>
+        <h4>Operadores de comparación</h4>
+        <ul>
+            <li>Igualdad: == (compara el valor) (NO usar para evitar bugs)</li>
+            <li>Igualdad Estricta: === (compara el valor y el tipo) (devuelve verdadero o falso)</li>
+            <li>Desigualdad Estricta: !== (compara el valor)</li>
+            <ul>
+                <li>Ej: 5==="5" (devuelve falso porque uno es numero y otro string)</li>
+                <li>Ej: 5===5 (devuelve verdadero porque ambos son numeros)</li>
+            </ul>
+            <li>Mayor que: ></li>
+            <li>Menor que: <</li>
+            <li>Mayor o igual que: >=</li>
+            <li>Menor o igual que: <=</li>
+        </ul>
+        <p>Ver ejemplos en la consola y el archivo</p>
+        <br>
+        <hr>
+        <h4>Operadores lógicos</h4>
+        <ul>
+            <li>AND: && (devuelve verdadero si ambos son verdaderos)</li>
+            <li>OR: || (devuelve verdadero si uno de los dos es verdadero)</li>
+            <li>NOT: ! (invierte el valor, si es verdadero devuelve falso y viceversa)</li>
+        </ul>
+        <p>Ver ejemplos en la consola y el archivo</p>
+        <br>
+        <hr>
+        <h4>Condicionales</h4>
+        <p>if, else, else if</p>
+        <p>Ver ejemplos en la consola y el archivo</p>
+        <br>
+        <hr>
+        <h4>Bucle for</h4>
+        <p>Bucles comos los de C</p>
+        <p>Ver ejemplos en la consola y el archivo</p>
+        <br>
+        <hr>
+        <h4>Funciones</h4>
+        <p>Sirven para reutilizar codigo</p>
+        <p>Es importante saber que las variables dentro de una funcion, <mark>solo son visibles dentro de la misma</mark></p>
+        <p>Ver ejemplos en la consola y el archivo</p>
+    </body>
+</html>
